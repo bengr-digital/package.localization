@@ -1,6 +1,6 @@
 {
     "name": "bengr/localization",
-    "description": "Package for implementing multiple solutions for routing in laravel application (regular routing, controller discovery, view discovery...)",
+    "description": "Package for localizing currencies, countries, languages and more for every nation in a nice Laravel way.",
     "type": "library",
     "license": "MIT",
     "authors": [
