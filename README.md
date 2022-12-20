@@ -1,4 +1,4 @@
-# Localization
+# Localization Package 📦
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/bengr/localization.svg?style=flat-square)](https://packagist.org/packages/bengr/localization)
 [![Total Downloads](https://img.shields.io/packagist/dt/bengr/localization.svg?style=flat-square)](https://packagist.org/packages/bengr/localization)
