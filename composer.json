@@ -11,7 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Bengr\\Localization\\": "src/"
+            "Bengr\\Localization\\": "src/",
+            "Bengr\\Localization\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -27,6 +28,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "orchestra/testbench": "^7.13"
+        "orchestra/testbench": "^7.13",
+        "phpunit/phpunit": "^9.5"
     }
 }

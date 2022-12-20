@@ -46,7 +46,7 @@ class Localization
         return $this;
     }
 
-    public function has($code)
+    public function has($code): ?bool
     {
         return app($this->localizable, [
             'path' => $this->path,
@@ -54,7 +54,7 @@ class Localization
         ])->has($code);
     }
 
-    public function get($code)
+    public function get($code): string
     {
         return app($this->localizable, [
             'path' => $this->path,
@@ -62,7 +62,7 @@ class Localization
         ])->get($code);
     }
 
-    public function all()
+    public function all(): array
     {
         return app($this->localizable, [
             'path' => $this->path,
