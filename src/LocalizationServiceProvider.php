@@ -2,8 +2,10 @@
 
 namespace Bengr\Localization;
 
+use Bengr\Localization\Rules\ValidCountryCode;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Validation\Rule;
 
 class LocalizationServiceProvider extends ServiceProvider
 {
@@ -16,5 +18,6 @@ class LocalizationServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        Rule::macro('validCountryCode', fn () => new ValidCountryCode());
     }
 }
