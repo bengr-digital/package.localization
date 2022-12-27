@@ -32,6 +32,6 @@
         "phpunit/phpunit": "^9.5"
     },
     "require": {
-        "bengr/support": "^1.0"
+        
     }
 }
