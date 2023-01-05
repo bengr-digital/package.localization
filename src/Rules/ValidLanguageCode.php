@@ -13,7 +13,7 @@ class ValidLanguageCode implements Rule
     public function handle($attribute, $value)
     {
         if (!Localization::languages()->has($value)) {
-            $this->setError("{$value} is not a valid language code");
+            $this->setError(__("validation.language_code"));
         }
     }
 }

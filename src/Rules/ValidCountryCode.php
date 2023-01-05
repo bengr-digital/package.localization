@@ -13,7 +13,7 @@ class ValidCountryCode implements Rule
     public function handle($attribute, $value)
     {
         if (!Localization::countries()->has($value)) {
-            $this->setError("{$value} is not a valid country code");
+            $this->setError(__("validation.country_code"));
         }
     }
 }

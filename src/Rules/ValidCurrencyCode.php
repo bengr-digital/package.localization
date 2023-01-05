@@ -13,7 +13,7 @@ class ValidCurrencyCode implements Rule
     public function handle($attribute, $value)
     {
         if (!Localization::currencies()->has($value)) {
-            $this->setError("{$value} is not a valid currency code");
+            $this->setError(__("validation.currency_code"));
         }
     }
 }
