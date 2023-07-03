@@ -25,6 +25,9 @@
             }
         }
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
@@ -32,6 +35,6 @@
         "phpunit/phpunit": "^9.5"
     },
     "require": {
-        
+        "spatie/laravel-package-tools": "^1.15"
     }
 }

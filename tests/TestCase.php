@@ -17,9 +17,4 @@ class TestCase extends \Orchestra\Testbench\TestCase
             LocalizationServiceProvider::class,
         ];
     }
-
-    protected function getEnvironmentSetUp($app)
-    {
-        // perform environment setup
-    }
 }

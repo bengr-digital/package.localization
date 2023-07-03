@@ -2,6 +2,7 @@
 
 namespace Bengr\Localization\Facades;
 
+use Bengr\Localization\LocalizationManager;
 use Illuminate\Support\Facades\Facade;
 
 /**
@@ -19,6 +20,6 @@ class Localization extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return "localization";
+        return LocalizationManager::class;
     }
 }

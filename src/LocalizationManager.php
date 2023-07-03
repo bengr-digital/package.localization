@@ -6,7 +6,7 @@ use Bengr\Localization\Localizables\Country;
 use Bengr\Localization\Localizables\Currency;
 use Bengr\Localization\Localizables\Language;
 
-class Localization
+class LocalizationManager
 {
     protected string $path;
     protected string $locale;
